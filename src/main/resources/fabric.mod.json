@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "beaconrings",
+	"version": "${version}",
+	"name": "BeaconRings",
+	"description": "Adds 6 rings that apply beacon status effects, plus one ring that applies all beacon status effects",
+	"authors": [
+		"Concavebark"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/beaconrings/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"concavebark.beaconrings.BeaconRings"
+		],
+		"client": [
+			"concavebark.beaconrings.BeaconRingsClient"
+		],
+		"fabric-datagen": [
+			"concavebark.beaconrings.BeaconRingsDataGenerator"
+		]
+	},
+	"mixins": [
+		"beaconrings.mixins.json",
+		{
+			"config": "beaconrings.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.7",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

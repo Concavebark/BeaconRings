@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EGE",
+    "GBG",
+    "NGN"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:beacon"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "N": {
+      "item": "minecraft:nether_star"
+    },
+    "E": {
+      "item": "minecraft:emerald"
+    }
+  },
+  "result": {
+    "id": "beaconrings:jump_boost_ring",
+    "count": 1
+  }
+}

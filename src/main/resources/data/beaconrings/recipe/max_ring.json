@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "beaconrings:haste_ring"
+    },
+    {
+      "item": "beaconrings:jump_boost_ring"
+    },
+    {
+      "item": "beaconrings:regeneration_ring"
+    },
+    {
+      "item": "beaconrings:resistance_ring"
+    },
+    {
+      "item": "beaconrings:speed_ring"
+    },
+    {
+      "item": "beaconrings:strength_ring"
+    }
+  ],
+  "result": {
+    "id": "beaconrings:max_ring",
+    "count": 1
+  }
+}
